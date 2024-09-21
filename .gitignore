@@ -163,3 +163,5 @@ cython_debug/
 
 #Project Focus Igonore
 data.csv
+language-detection-project.ipynb
+language-detection-system.ipynb
