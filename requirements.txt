@@ -1,0 +1,11 @@
+matplotlib
+numpy
+pandas
+plotly 
+regex
+requests 
+scikit-learn
+scipy==1.11.4
+seaborn 
+streamlit
+time
