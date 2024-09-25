@@ -36,3 +36,13 @@ To further improve the model and we got the following Result
 * Validation Set Result on Grid seach model is 100% for F1 score, Presision and Recall
 - Comparing the two results above we notice a significant improvement
 - Best Params for Naive Bayes: {'alpha': 0.1, 'fit_prior': True}
+
+
+### Deployment
+- The Final Naive bayes was serialized using pickle and the model was deploy using streamlit
+- ### Running The App
+- To Run the app use the command below'
+  `streamlit run language_identification_app.py`
+  `bash
+  streamlit run language_identification_app.py
+  `
