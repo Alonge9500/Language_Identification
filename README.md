@@ -40,9 +40,8 @@ To further improve the model and we got the following Result
 
 ### Deployment
 - The Final Naive bayes was serialized using pickle and the model was deploy using streamlit
-- ### Running The App
-- To Run the app use the command below'
-  `streamlit run language_identification_app.py`
-  `bash
-  streamlit run language_identification_app.py
-  `
+#### Running The App
+To Run the app use the command below
+  
+`streamlit run language_identification_app.py`
+  
