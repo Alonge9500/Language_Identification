@@ -46,4 +46,7 @@ To Run the app use the command below
 `streamlit run language_identification_app.py`
 
 #### Video Walkthrorugh of deployment
-<video src='lang_identifier.mp4' width=280/>
+<video src='https://github.com/user-attachments/assets/42e8c4b7-24d7-43d1-87c3-d0dbfa6d180e'></video>
+
+
+
