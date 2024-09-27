@@ -2,6 +2,8 @@
 
 ## Project Structure
 
+
+```plaintext
 |──data_folder
 |   |──extracted_data.csv
 |──pickles
@@ -22,6 +24,7 @@
 |──README.md
 |──requirements.txt
 |
+```
 
 
 ## About Data
