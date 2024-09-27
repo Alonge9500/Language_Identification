@@ -1,4 +1,29 @@
 # Language_Identification
+
+## Project Structure
+
+|data_folder
+|   __ extracted_data.csv
+|pickles
+|   __ language_label_mapping.pkl
+|   __ tfidf_vectorizer.pkl
+|   __ final_naivebayes_model.pkl
+|scripts
+|   __ __init__.py
+|   __ cleaning.py
+|   __ preprocess.py
+|   __ model_building.py
+|   __ hyperparameter_tuning.py
+|   __ testing1.py
+|   __ testing2.py
+|language_identification_notebook.ipynb
+|data.csv
+|language_identification_app.py
+|README.md
+|requirements.txt
+|
+
+
 ## About Data
 * Data Name : Wili 2018
 * Source: Kaggle [https://www.kaggle.com/datasets/sharansmenon/wili-2018?select=data.csv]
@@ -44,6 +69,14 @@ To further improve the model and we got the following Result
 To Run the app use the command below
   
 `streamlit run language_identification_app.py`
+
+### Unit Test
+* There are two testing file in the scripts folder, testing1.py and testing2.py
+* testing1.py was design with unittest approach
+  To run testing 1 use the command below
+  `python run testing1.py`
+* testing2.py was design with pytest approach
+  `pytest testing2.py` provided you have pytest installed
 
 #### Video Walkthrorugh of deployment
 <video src='https://github.com/user-attachments/assets/42e8c4b7-24d7-43d1-87c3-d0dbfa6d180e'></video>
