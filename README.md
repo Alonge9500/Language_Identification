@@ -2,25 +2,25 @@
 
 ## Project Structure
 
-|data_folder
-|   __ extracted_data.csv
-|pickles
-|   __ language_label_mapping.pkl
-|   __ tfidf_vectorizer.pkl
-|   __ final_naivebayes_model.pkl
-|scripts
-|   __ __init__.py
-|   __ cleaning.py
-|   __ preprocess.py
-|   __ model_building.py
-|   __ hyperparameter_tuning.py
-|   __ testing1.py
-|   __ testing2.py
-|language_identification_notebook.ipynb
-|data.csv
-|language_identification_app.py
-|README.md
-|requirements.txt
+|──data_folder
+|   |──extracted_data.csv
+|──pickles
+|   |──language_label_mapping.pkl
+|   |──tfidf_vectorizer.pkl
+|   |──final_naivebayes_model.pkl
+|──scripts
+|   |──__init__.py
+|   |──cleaning.py
+|   |──preprocess.py
+|   |──model_building.py
+|   |──hyperparameter_tuning.py
+|   |──testing1.py
+|   |──testing2.py
+|──language_identification_notebook.ipynb
+|──data.csv
+|──language_identification_app.py
+|──README.md
+|──requirements.txt
 |
 
 
