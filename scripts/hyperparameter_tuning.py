@@ -22,7 +22,8 @@ def grid_search_tuning(train_features: pd.Series,
                        test_label: pd.Series,
                        val_label: pd.Series):
     """
-    Perform hyperparameter tuning for Naive Bayes, Logistic Regression, and Random Forest models using GridSearchCV.
+    Perform hyperparameter tuning for Naive Bayes,
+    Logistic Regression, and Random Forest models using GridSearchCV.
     
     Parameters:
     - train_features: Training features (pd.Series)

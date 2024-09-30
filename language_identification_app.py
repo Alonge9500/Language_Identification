@@ -26,7 +26,8 @@ with open('pickles/language_label_mapping.pkl','rb') as file:
 
 def main():
     st.title("Multilingual Identifier")
-    st.markdown("*Instruction*:The Language Identification APP(Multilingual Identifier) only works for 3 languages Afrikaans, Spanish and German\
+    st.markdown("*Instruction*:The Language Identification APP(Multilingual Identifier)\
+                only works for 3 languages Afrikaans, Spanish and German\
                 For both (Alemannic German and Main German)\
                 \n* Enter a phrase in any of the above listed language and the system will identify it\
                 \n* Example \
